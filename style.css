@@ -2,11 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 body{
     position: relative;
     font-family: 'Noto Serif', serif;
     background: #f4f7fa;
+    background:linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(GuraPhotos/view.jpg);
+    background-repeat: no-repeat;
+    background-size: 220vh 80vh; 
+    
+    
+    
 }
 .heading-1{
     text-align: center;
@@ -15,9 +22,15 @@ body{
 .buttons{
     text-align: center;
     margin-top: 5rem;
-
+    
 }
 .but{
    padding: 1rem;
+   border-radius: 30px;
+   letter-spacing: 1.5px;
+   font-size: 20px;
+   font-weight: 700;
+   background-color: transparent;
+   border-color: #fff;
 }
 
