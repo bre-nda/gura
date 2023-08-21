@@ -16,7 +16,7 @@ body{
     background-size: 230vh 80vh;  */    
     
 }
-img{
+.intro img{
     background-repeat: no-repeat;
    filter: brightness(40%);
     margin-left: -20rem;
@@ -26,12 +26,14 @@ img{
 
 .heading-1{
     text-align: center;
+    margin-left: 7rem;
     margin-top: 4rem;
     color: #ffff;
     
 }
 .heading-1 h1{
     font-size: 500%;
+    margin-left: 4rem;
     position: absolute;
     top: 5rem;
     left: 4rem;
@@ -40,6 +42,7 @@ img{
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 .heading-1 h4{
+    margin-left: 4rem;
     position: absolute;
     top: 8rem;
     left: 4rem;
@@ -141,6 +144,7 @@ img{
 .buttons{
     color: #ffff;
     text-align: center;
+    margin-left: 5rem;
     margin-top: 16rem;
     position: absolute;
     top: 4rem;
@@ -160,14 +164,32 @@ img{
    border-color: #ffff;
    color: #ffff;
 }
+a{
+    background-color: transparent;
+}
 .amenities h2{
     font-weight: 700;
+    text-align: center;
+    margin-left: 3.5rem;
 }
-#flip{
-    cursor: pointer;
+.row{
+    margin-top: 3rem;
+    margin-left: 7rem;
+
 }
-#panel{
-    display: none;
+.food{
+    margin-left: -3rem;
+}
+.fa-square-parking{
+    margin-left: 2rem;
+}
+.walk img{
+    width: 85%;
+    height: 80%;
+}
+.swim img{
+    width: 85%;
+    height: 44vh; 
 }
 
 
