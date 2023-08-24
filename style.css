@@ -12,12 +12,15 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
     display: inline-block;
+   
+    
     
     /* background:linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(GuraPhotos/river-11.jpg);
     background-repeat: no-repeat;
     background-size: 230vh 80vh;  */    
     
 }
+
 nav{
   position: fixed;
   top: 0;
@@ -137,10 +140,23 @@ ul li a:hover{
     text-align: center;
     margin-left: -3.5rem;
 }
+.child{
+  margin-left: 3rem;
+}
+.security{
+  margin-left: 2rem;
+}
+.meet{
+  margin-left: 4rem;
+}
+
 .font{
     margin-top: 3rem !important;
     margin-left: 18rem !important;
 
+}
+.font h6{
+  font-size: 20px;
 }
 .about-us{
   margin-top: 5.5rem !important;
@@ -164,7 +180,7 @@ ul li a:hover{
 .about-1 p{
   line-height: 28px;
   font-weight: 400;
-  font-size: 120%;
+  font-size: 125%;
 }
 .enve{
   margin-top: 4rem;
