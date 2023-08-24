@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 19px;
     box-sizing: border-box;
     
 }
@@ -178,9 +179,9 @@ ul li a:hover{
   
 }
 .about-1 p{
-  line-height: 28px;
+  line-height: 29px;
   font-weight: 400;
-  font-size: 125%;
+  font-size: 120%;
 }
 .enve{
   margin-top: 4rem;
@@ -280,49 +281,19 @@ ul li a:hover{
 
 .contact{
   background: #22223b;
-  margin-right: -18rem !important;
+  margin-right: -22rem !important;
   margin-left: -3rem !important;
   margin-top: 5rem !important;
   margin-bottom: -3rem !important;
   margin-top: 5rem !important;
   color: #fff;
 }
-.contact a{
-  text-decoration: none;
-  color: white;
-  margin-left: 19rem !important;
-
+.contact h6{
+  color: #eef5fc;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 2rem;
 }
-.facebook{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-left: 19rem;
-/}
-.face{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
-}
-.instagram{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
-}
-.twitter{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
-}
-.gmail{
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
-}
-
-
 .house{
   columns: #fff;
   position: absolute;
