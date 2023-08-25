@@ -256,5 +256,308 @@ nav{
     border-radius: 50%;
     padding: 10px;
   }
+
+  @media (max-width: 480px){
+
+    html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    }
+    .logo{
+        margin-top: -1.6rem;
+        margin-left: -5rem;
+    }
+    nav ul li a{
+        margin-right: -5.6rem;
+        margin-left: 4rem;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    .heading-1 h1{
+    margin-bottom: 10rem;
+    font-size: 60px;
+    position: fixed;
+    }
+    .heading-1 h5{
+    margin-top: 7rem;
+    position: fixed;
+    }
+    .about-1{
+    padding-left: 1.5rem;
+    padding-right: 15.2rem;
+    margin-right: 3rem;
+    }
+    .mail p{
+    font-size: 23px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    }
+    .phone p{
+    font-size: 23px;
+    margin-left: 4rem;
+    }
+    .location p{
+    font-size: 23px;
+    margin-left: 4rem;
+    }
+    .loca p{
+    font-size: 23px;
+    margin-left: 4rem;
+    }
+    .act-1{
+        margin-top: 1rem;
+        padding-right: 8rem;
+        margin-left: -8rem;
+    }
+    .act-2{
+        margin-left: -2rem;
+    }
+    .act-2 img{
+        height: 45vh;
+    }
+    .tour-1{
+      margin-left: -10.2rem;  
+    }
+    .tour-1 img{
+        height: 45vh;
+    }
+    .tour-2{
+       margin-left: -10rem;
+       margin-top: 22rem; 
+       margin-right: -138rem;
+    }
+    .contact h6{
+        margin-left: -14rem;
+    }
+    
+} 
+@media (min-width: 481px) and (max-width: 767px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
+        .logo{
+            margin-top: -1.6rem;
+            margin-left: -5rem;
+        }
+        nav ul li a{
+            margin-right: -5.6rem;
+            margin-left: 4rem;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        .heading-1 h1{
+        margin-bottom: 10rem;
+        font-size: 60px;
+        position: fixed;
+        }
+        .heading-1 h5{
+        margin-top: 7rem;
+        position: fixed;
+        }
+        .about-1{
+        padding-left: 1.5rem;
+        padding-right: 15.2rem;
+        margin-right: 3rem;
+        }
+        .mail p{
+        font-size: 23px;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        }
+        .phone p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+        .location p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+        .loca p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+        .act-1{
+            margin-top: 1rem;
+            padding-right: 8rem;
+            margin-left: -8rem;
+        }
+        .act-2{
+            margin-left: -2rem;
+        }
+        .act-2 img{
+            height: 45vh;
+            margin-left: 2.2rem;
+        }
+        .tour-1{
+          margin-left: -10.2rem;  
+        }
+        .tour-1 img{
+            height: 45vh;
+           margin-left: 1.6rem;
+        }
+        .tour-2{
+           margin-left: -8.5rem;
+           margin-top: 3rem; 
+        }
+        .contact h6{
+            margin-left: -14rem;
+        }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        }
+        .logo{
+            margin-top: -0.1rem;
+            margin-left: -5rem;
+        }
+        nav ul li a{
+            margin-right: -5.6rem;
+            margin-left: 4rem;
+        }
+        nav ul li{
+           margin-top: -0.1rem;
+        }
+        .row{
+            margin-left: -3.5rem;
+        }
+        .about-1{
+            padding-left: 1.5rem;
+            }
+        .mail p{
+            font-size: 23px;
+            margin-top: 4rem;
+            margin-left: 4rem;
+            }
+        .phone p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+        .location p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+        .loca p{
+        font-size: 23px;
+        margin-left: 4rem;
+        }
+
+        .act-1{
+            margin-top: 1rem;
+            margin-left: -8rem;
+        }
+        .act-2 img{
+            height: 45vh;
+        }
+        .tour-1 img{
+            height: 45vh;
+            width: 55vh;
+           /* margin-left: 1.6rem; */
+           margin-left: -20rem;
+           
+
+        }
+        .tour-2{
+           margin-left: 16rem;
+           margin-top: -25rem; 
+        }
+        .contact h6{
+            margin-left: -14rem;
+        } 
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .row{
+        margin-left: -3.5rem;
+    }
+    .about-1{
+        padding-left: 1.5rem;
+    }
+    .act-1{
+        margin-top: 1rem;
+        margin-left: -7.5rem;
+    }
+    .act-2 img{
+        height: 70vh;
+        width: 70vh;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .tour-1 img{
+        height: 70vh;
+        width: 70vh;
+        margin-left: -11rem;
+    }
+    .tour-2{
+       margin-left: 16rem;
+       margin-top: -21rem; 
+    }
+    .contact h6{
+        margin-left: -14rem;
+    } 
+}
+@media (min-width: 1200px) and (max-width: 1919px){
+    html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .row{
+        margin-left: -5rem;
+    }
+    .about-1{
+        padding-left: 2rem;
+    }
+    .act-1{
+        margin-top: 1rem;
+        margin-left: -7.5rem;
+    }
+    .act-2 img{
+        height: 70vh;
+        width: 70vh;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .tour-1 img{
+        height: 70vh;
+        width: 70vh;
+        margin-left: -11rem;
+    }
+    .tour-2{
+       margin-left: 25rem;
+       margin-top: -21rem; 
+    }
+    .contact h6{
+        margin-left: -14rem;
+    } 
+}
+
+
+ 
+  
+  
+
+ 
   
   
