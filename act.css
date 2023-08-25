@@ -266,6 +266,10 @@ nav{
     padding: 0;
     overflow-x: hidden;
     }
+    .intro img{
+      display: none;
+    }
+    .i
     .logo{
         margin-top: -1.6rem;
         margin-left: -5rem;
