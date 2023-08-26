@@ -66,14 +66,36 @@ body{
 }
 
 @media screen and (max-width:900px) {
+  html, body{
+    overflow-x: hidden;
+  }
   .carousel img{
-      width: calc(100% / 2); 
+    width: calc(100% / 2);
   }
   
 }
 @media screen and (max-width:550px) {
+  html, body{
+    overflow-x: hidden;
+  }
   .carousel img{
-      width: 100%; 
+      width: 100%;
+      
+  }
+  h1{
+    font-size: 20px;
+  }
+  .wrapper{
+    padding-left: -5rem;
+  }
+  .wrapper i:first-child{
+    left: -49px;
+  }
+  .wrapper i:last-child{
+    right: -49px;
+  }
+  .contact h6{
+    margin-left: 3rem;
   }
   
 }
