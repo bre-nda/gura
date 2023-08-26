@@ -71,8 +71,11 @@
 i{
     font-size: 30px;
 }
+.free{
+    margin-left: 2rem;
+}
 .child{
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 .security{
   margin-left: 2rem;
@@ -119,7 +122,7 @@ i{
  
 }
 .email{
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   color: rgb(31, 31, 31);
 }
@@ -130,10 +133,12 @@ i{
 .iphone{
   margin-top: 2rem;
   margin-left: 9rem;
+
 }
 .area{
   margin-top: 2rem;
   margin-left: 13rem;
+
 }
 .tour{
     margin-left: 8rem !important ;
@@ -241,6 +246,7 @@ i{
     .about-us{
         margin-left: -8rem;
     }
+    
     .about-1{
         margin-right: -5rem;
     }
@@ -255,9 +261,14 @@ i{
     }
     .enve{
         margin-left: 9rem;
+        font-size: 15px;
     }
     .area{
         margin-left: 9rem;
+        font-size: 15px;
+    }
+    .iphone{
+        font-size: 15px;
     }
     .mail{
         margin-bottom: -1rem;
@@ -265,6 +276,11 @@ i{
     .phone{
         margin-bottom: -1rem;
     }
+    .email{
+        font-size: 20px;
+    }
+    
+    
     .tour-1 img{
         margin-left: -9rem;
         width: 49vh;
@@ -312,9 +328,8 @@ i{
   
   @media (max-width:952px){
     .logo{
-      font-size: 20px;
+      font-size: 10px;
       /* padding-left: 40px; */
-      color: #2c2447;
       /* display: none; */
     }
     nav ul li a{
@@ -338,6 +353,7 @@ i{
     margin-right: -2rem;
     /* margin-top: -2rem; */
    }
+
    i{
     font-size: 30px;
    }
