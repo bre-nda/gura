@@ -68,12 +68,12 @@ nav ul li a:hover{
 }
 .heading-1 h1{
   font-size: 80px;
-  margin-top: 10rem;
+  margin-top: 6rem;
   margin-bottom: 2rem;
 }
 .buttons{
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .buttons a{
   text-decoration: none;
@@ -106,12 +106,11 @@ nav ul li a:hover{
     height: 100%;
     overflow-x: hidden;
   }
-  .buttons{
-    /* margin-bottom: 3rem; */
-    margin-top: 6rem;
-  }
   .heading-1 h1{
     font-size: 55px;
+  }
+  .heading-1 h5{
+    margin-bottom: -5rem;
   }
 }
 
