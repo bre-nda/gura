@@ -112,6 +112,7 @@ nav ul li a:hover{
 .yoga p{
   font-size: 20px;
   margin-top: 1rem;
+  display: block;
 }
 .hydro{
   margin-right: 4rem;
@@ -123,6 +124,7 @@ nav ul li a:hover{
 .hydro p{
   font-size: 20px;
   margin-top: 1rem;
+  display: block;
 }
 .kikuyu{
   margin-left: 4rem;
@@ -141,6 +143,7 @@ nav ul li a:hover{
 .kik p{
   font-size: 20px;
   margin-top: 1rem;
+  display: block;
 } 
 .contact{
   background: #22223b;
@@ -211,6 +214,7 @@ nav ul li a:hover{
   .mental p{
     font-size: 18px;
     margin-left: 0.5rem;
+    display: block;
   }
   .mental h1{
     font-size: 28px;
@@ -229,6 +233,7 @@ nav ul li a:hover{
   .kikuyu p{
     font-size: 18px;
     margin-left: 0.5rem;
+    display: block;
   }
 }
 @media (min-width: 481px) and (max-width: 767px){
@@ -281,6 +286,7 @@ nav ul li a:hover{
   }
   .mental p{
     font-size: 18px;
+    display: block;
    
   }
   .mental h1{
@@ -298,6 +304,7 @@ nav ul li a:hover{
   }
   .kikuyu p{
     font-size: 18px;
+    display: block;
   }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -352,6 +359,7 @@ nav ul li a:hover{
 
   .mental p{
     font-size: 15px;
+    display: block;
   }
   .mental h1{
     font-size: 28px;
@@ -368,6 +376,7 @@ nav ul li a:hover{
   }
   .kikuyu p{
     font-size: 15px;
+    display: block;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -390,6 +399,7 @@ nav ul li a:hover{
   }
   .mental p{
     font-size: 15px;
+    display: block;
   }
   .mental h1{
     font-size: 28px;
@@ -406,6 +416,7 @@ nav ul li a:hover{
   }
   .kikuyu p{
     font-size: 15px;
+    display: block;
   }
   
 }
@@ -426,6 +437,7 @@ nav ul li a:hover{
   }
   .mental p{
     font-size: 20px;
+    display: block;
   }
   .mental h1{
     font-size: 28px;
@@ -442,6 +454,7 @@ nav ul li a:hover{
   }
   .kikuyu p{
     font-size: 20px;
+    display: block;
   }
   
 }
