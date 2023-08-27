@@ -202,10 +202,11 @@ nav ul li a:hover{
     left: 0;
   }
   .mental{
-    margin-left: -1rem;
+    margin-left: -1.5rem;
   }
   .mental p{
     font-size: 18px;
+    margin-left: 0.5rem;
   }
   .mental h1{
     font-size: 28px;
@@ -213,15 +214,17 @@ nav ul li a:hover{
   }
   .mental h2{
     font-size: 25px;
+    margin-left: 0.5rem;
   }
   .kikuyu{
-    margin-left: -1rem;
+    margin-left: -1.5rem;
   }
   .kikuyu h2{
     font-size: 20px;
   }
   .kikuyu p{
     font-size: 18px;
+    margin-left: 0.5rem;
   }
 }
 @media (min-width: 481px) and (max-width: 767px){
