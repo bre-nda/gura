@@ -256,6 +256,13 @@ nav ul li a:hover{
   nav ul li a{
     font-size: 11px;
   }
+  .buttons{
+    margin-top: 6rem;
+  }
+  .buttons a{
+    padding: 0.5rem;
+    font-size: 18px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1919px){
   html, body{
@@ -268,7 +275,10 @@ nav ul li a:hover{
   nav ul li a{
     font-size: 14px;
   }
-
+  .heading-1 h1{
+    margin-top: 10rem;
+    font-size: 60px;
+  }
   
 }
 
