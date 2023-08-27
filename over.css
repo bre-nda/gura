@@ -785,12 +785,12 @@ i{
       font-size: 11px;
     }
     .amenities h2{
-        font-size: 10px;
+        font-size: 25px;
         margin-left:8rem;
         margin-top: -1rem;
     }
     .amenities h6{
-        font-size: 10px;
+        font-size: 15px;
     }
    .font{
     margin-left:14rem !important;
@@ -810,16 +810,16 @@ i{
     margin-left: -0.8rem;
    }
    .child{
-    margin-left: 0.7rem;
+    margin-left: 1rem;
    }
    .con{
     margin-left: -1rem;
    }
    .meet{
-    margin-left: 1rem;
+    margin-left: 2rem;
    }
    .free{
-    margin-left: 1rem;
+    margin-left: 1.5rem;
    }
    .park{
     margin-left: -2.5rem;
@@ -832,7 +832,7 @@ i{
     margin-left: 2rem;
    }
    .security{
-    margin-left: 3rem;
+    margin-left: 3.3rem;
    }
 
     .about-us{
@@ -930,12 +930,12 @@ i{
       font-size: 14px;
     }
       .amenities h2{
-          font-size: 10px;
+          font-size: 25px;
           margin-left:16rem;
           margin-top: -1rem;
       }
       .amenities h6{
-          font-size: 10px;
+          font-size: 15px;
       }
      .font{
       margin-left:14rem !important;
@@ -955,16 +955,16 @@ i{
       margin-left: -0.8rem;
      }
      .child{
-      margin-left: 0.7rem;
+      margin-left: 1rem;
      }
      .con{
       margin-left: -1rem;
      }
      .meet{
-      margin-left: 1rem;
+      margin-left: 2rem;
      }
      .free{
-      margin-left: 1rem;
+      margin-left: 1.5rem;
      }
      .park{
       margin-left: -2.5rem;
@@ -977,7 +977,7 @@ i{
       margin-left: 2rem;
      }
      .security{
-      margin-left: 3rem;
+      margin-left: 3.3rem;
      }
   
       .about-us{
@@ -988,7 +988,7 @@ i{
           margin-right: -15rem;
       } */
       .about-1 p{
-          font-size: 15px;
+          font-size: 20px;
       }
       .about-2 h3{
           margin-left: -18rem;
@@ -1019,7 +1019,7 @@ i{
           margin-left: -5rem; 
       }
       .email{
-          font-size: 15px;
+          font-size: 20px;
       }
       
       
