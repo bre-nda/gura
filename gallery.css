@@ -1,153 +1,94 @@
-* {
+*{
   margin: 0;
   padding: 0;
-  font-size: 19px;
   box-sizing: border-box;
-  
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
 }
 body{
- 
-  font-family: 'Jost', sans-serif;
-  display: flex;
-  padding: 0 35px;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #fafcfd;
+  background-color: #fff;
+  /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GuraPhotos/river-11.jpg); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   overflow-x: hidden;
 }
-.wrapper{
-  max-width: 1200px;
-  position: relative;
+nav{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GuraPhotos/river-11.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90px;
+  width: 100%;
 }
-.wrapper i{
-  top: 50%;
-  height: 46px;
-  width: 46px;
-  cursor: pointer;
-  position: absolute;
-  font-size: 1.2rem;
-  text-align: center;
-  line-height: 46px;
-  background: #252a5c;
+label.logo{
   color: #fff;
-  border-radius: 50%;
-  transform: translateY(-50%);
+  font-size: 20px;
+  line-height: 80px;
+  padding: 0 30px;
 }
-.wrapper i:first-child{
-  left: -52px;
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.fa-bars{
+  font-size: 30px;
+  color: #fff;
+}
+.checkbtn{
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
   display: none;
 }
-.wrapper i:last-child{
-  right: -55px;
+#check{
+  display: none;
 }
-.wrapper .carousel{
-  font-size: 0px;
-  cursor: pointer;
-  overflow: hidden;
-  white-space: nowrap;
-  scroll-behavior: smooth;
-}
-.carousel .dragging{
-  cursor: grab;
-  scroll-behavior: auto;
-}
-.carousel .dragging img{
-  pointer-events: none;
-}
-.carousel img{
-  height: 340px;
-  width: calc(100% / 3);
-  object-fit: cover;
-  margin-left: 14px;
-}
-.carousel img:first-child{
-  margin-left: 0px;
+h2{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
 }
 
-@media screen and (max-width:900px) {
-  html, body{
-    overflow-x: hidden;
-  }
-  .carousel img{
-    width: calc(100% / 2);
-  }
-  
+.column img{
+  width: 80%;
+  height: 85%;
 }
-@media screen and (max-width:550px) {
-  html, body{
-    overflow-x: hidden;
-  }
-  .carousel img{
-      width: 100%;
-      
-  }
-  h1{
-    font-size: 20px;
-  }
-  .wrapper{
-    padding-left: -5rem;
-  }
-  .wrapper i:first-child{
-    left: -49px;
-  }
-  .wrapper i:last-child{
-    right: -49px;
-  }
-  .contact h6{
-    margin-left: 3rem;
-  }
-  
-}
-
-
-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  padding: 10px 90px;
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0.6);
-  /* background: transparent; */
-  border-bottom: 1px solid transparent;
-  position: fixed;
-}
-.logo{
-  padding: 22px 20px;
-  height: 80px;
+.column{
   float: left;
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
+  width: 33.33%;
+  padding: 0px;
 }
-ul{
-  list-style: none;
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-ul li a{
-  line-height: 80px;
-  color: #fff;
-  padding: 12px 20px;
-  text-decoration: none;
-  font-size: 16px;
-  /* font-weight: bold; */
-  text-transform: uppercase;
-}
-ul li a:hover{
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 6px;
-  color: #fff;
-}
+
+
+
 .contact{
   background: #22223b;
-  margin-right: -22rem !important;
-  margin-left: -15rem !important;
+  margin-right: -15rem !important;
+  margin-left: -3rem !important;
   margin-top: 5rem !important;
   margin-bottom: -3rem !important;
   margin-top: 5rem !important;
@@ -156,35 +97,176 @@ ul li a:hover{
 .contact h6{
   color: #eef5fc;
   text-align: center;
-  margin-right: 10rem;
   padding: 2rem;
   padding-bottom: 2rem;
+  margin-right: 12rem;
 }
-.facebook{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-left: 19rem;
+
+
+@media (max-width: 480px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo{
+    font-size: 8px;
+    /* color: blueviolet; */
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 15px;
+    color: #000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .row{
+    margin-left: 0rem;
+  }
+  
+
 }
-.face{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
+@media (min-width: 481px) and (max-width: 767px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c2447;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .row{
+    margin-left: 0rem;
+  }
+
 }
-.instagram{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
+@media (min-width: 768px) and (max-width: 991px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+    /* color: blueviolet; */
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c2447;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+ 
+
 }
-.twitter{
-  margin-right: -15rem;
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
+
+@media (min-width: 992px) and (max-width: 1199px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+    /* color: blueviolet; */
+  }
+  nav ul li a{
+    font-size: 11px;
+  }
+  
 }
-.gmail{
-  border: solid 1px #fff;
-  border-radius: 50%;
-  padding: 10px;
+@media (min-width: 1200px) and (max-width: 1919px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  
+  
 }
