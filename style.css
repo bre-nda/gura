@@ -20,9 +20,9 @@ nav{
 }
 label.logo{
   color: #fff;
-  font-size: 35px;
+  font-size: 20px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0 20px;
 }
 nav ul{
   float: right;
@@ -67,13 +67,16 @@ nav ul li a:hover{
   
 }
 .heading-1 h1{
-  font-size: 80px;
+  font-size: 40px;
   margin-top: 6rem;
   margin-bottom: 2rem;
 }
+.heading-1 h5{
+  font-size: 20px;
+}
 .buttons{
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 13rem;
 }
 .buttons a{
   text-decoration: none;
@@ -94,11 +97,7 @@ nav ul li a:hover{
   100% { transform: translateY(0) }
 }
 
-
-
-
-
-@media (max-width:480px){
+@media (max-width: 480px){
   html, body{
     margin: 0;
     padding: 0;
@@ -106,29 +105,14 @@ nav ul li a:hover{
     height: 100%;
     overflow-x: hidden;
   }
-  .heading-1 h1{
-    font-size: 55px;
-  }
-  .heading-1 h5{
-    margin-bottom: -5rem;
-  }
-}
 
-@media (max-width:952px){
   label .logo{
-    font-size: 30px;
-    padding-left: 50px;
-    display: none;
+    font-size: 8px;
+    /* color: blueviolet; */
   }
   nav ul li a{
-    font-size: 16px;
+    font-size: 14px;
   }
-  .buttons{
-    margin-top: 15rem;
-  }
-}
-
-@media (max-width:858px){
   .checkbtn{
     display: block;
   }
@@ -144,16 +128,151 @@ nav ul li a:hover{
   }
   nav ul li{
     display: block;
-    margin: 50px 0;
+    margin: 50px;
+    margin-left: -0.3rem;
     line-height: 30px;
   }
   nav ul li a{
-    font-size: 20px;
+    font-size: 15px;
   }
   #check:checked ~ ul{
     left: 0;
   }
   .buttons{
-    margin-top: 15rem;
+    margin-top: 15rem
+  }
+  .buttons a{
+    padding: 0.5rem;
+    font-size: 18px;
   }
 }
+@media (min-width: 481px) and (max-width: 767px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c2447;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .buttons{
+    margin-top: 6rem;
+  }
+  .buttons a{
+    padding: 0.5rem;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+    /* color: blueviolet; */
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c2447;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .buttons{
+    margin-top: 6rem;
+  }
+  .buttons a{
+    padding: 0.5rem;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  label .logo{
+    font-size: 8px;
+    /* color: blueviolet; */
+  }
+  nav ul li a{
+    font-size: 11px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+
+  
+}
+
+
+
+
+
