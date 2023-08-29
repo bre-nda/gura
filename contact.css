@@ -192,6 +192,9 @@
     .checkbtn{
       display: block;
     }
+    .fa-bars{
+      font-size: 20px;
+    }
     ul{
       position: fixed;
       width: 100%;
@@ -266,6 +269,9 @@
     }
     .checkbtn{
       display: block;
+    }
+    .fa-bars{
+      font-size: 20px;
     }
     ul{
       position: fixed;
@@ -343,6 +349,9 @@
     }
     .checkbtn{
       display: block;
+    }
+    .fa-bars{
+      font-size: 20px;
     }
     ul{
       position: fixed;
