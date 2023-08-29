@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Jost', sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 body{
   background-color: #f6f6f7;
@@ -72,6 +72,7 @@ nav ul li a:hover{
 .center{
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 .pagination a {
   color: black;
@@ -83,68 +84,48 @@ nav ul li a:hover{
   margin: 0 4px;
 }
 
-/* .pagination a.active {
-  background-color: #2c2447;
-  color: white;
-} */
 .pagination a:hover{
   background-color: #2c2447;
   color: #fff;
 }
 
-.mental{
-  margin-left: 4rem;
-  margin-top: 1rem;
-}
-.mental h1{
-  font-size: 40px;
+.title h1{
   text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+.activity{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.mental{
+  vertical-align: top;
+  margin-left: 10rem;
+  display: inline-block;
+  width: 70vh;
 }
 .mental h2{
-  font-size: 30px;
+  font-size: 26px;
+}
+.mental p{
+  display: block;
+  font-size: 19px;
+}
+.mental img{
+  height: 50vh;
+  width: 70vh;
+}
+.mental-1{
   margin-top: 2rem;
-  margin-bottom: 1rem;
 }
-.yoga img{
-  width: 65vh;
-  height: 40vh;
+.mental-2{
+  margin-top: 3rem;
 }
-.yoga p{
-  font-size: 20px;
-  margin-top: 1rem;
-  display: block;
-}
-.hydro{
-  margin-right: 4rem;
-}
-.hydro img{
-  width: 65vh;
-  height: 40vh;
-}
-.hydro p{
-  font-size: 20px;
-  margin-top: 1rem;
-  display: block;
-}
-.kikuyu{
-  margin-left: 4rem;
-  margin-top: 1rem;
-}
-.kik h2{
-  font-size: 30px;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  
-}
-.kik img{
-  width: 65vh;
-  height: 40vh;
-}
-.kik p{
-  font-size: 20px;
-  margin-top: 1rem;
-  display: block;
-} 
+
+
 .contact{
   background: #22223b;
   margin-right: -15rem !important;
@@ -209,32 +190,23 @@ nav ul li a:hover{
     left: 0;
   }
   .mental{
-    margin-left: -1.5rem;
+    margin-left: 1rem;
+    width: 42vh;
   }
   .mental p{
     font-size: 18px;
-    margin-left: 0.5rem;
-    display: block;
   }
-  .mental h1{
-    font-size: 28px;
-    margin-top: -1.5rem;
+  .mental img{
+    width: 42vh;
+    height: 30vh;
   }
-  .mental h2{
-    font-size: 25px;
-    margin-left: 0.5rem;
+  .hydro{
+    margin-top: 2rem;
   }
-  .kikuyu{
-    margin-left: -1.5rem;
+  .hiking{
+    margin-top: 2rem;
   }
-  .kikuyu h2{
-    font-size: 20px;
-  }
-  .kikuyu p{
-    font-size: 18px;
-    margin-left: 0.5rem;
-    display: block;
-  }
+  
 }
 @media (min-width: 481px) and (max-width: 767px){
   html, body{
@@ -281,31 +253,23 @@ nav ul li a:hover{
     left: 0;
   }
   .mental{
-    margin-left: -0rem;
-    
+    margin-left: 2rem;
+    width: 65vh;
   }
   .mental p{
     font-size: 18px;
-    display: block;
-   
   }
-  .mental h1{
-    font-size: 28px;
-    margin-top: -1.5rem;
+  .mental img{
+    width: 65vh;
+    height: 30vh;
   }
-  .mental h2{
-    font-size: 25px;
+  .hydro{
+    margin-top: 2rem;
   }
-  .kikuyu{
-    margin-left: -0rem;
+  .hiking{
+    margin-top: 2rem;
   }
-  .kikuyu h2{
-    font-size: 25px;
-  }
-  .kikuyu p{
-    font-size: 18px;
-    display: block;
-  }
+  
 }
 @media (min-width: 768px) and (max-width: 991px){
   html, body{
@@ -353,31 +317,23 @@ nav ul li a:hover{
     left: 0;
   }
   .mental{
-    margin-left: -0rem;
-    
+    margin-left: 3.5rem;
+    width: 60vh;
   }
-
   .mental p{
-    font-size: 15px;
-    display: block;
+    font-size: 18px;
   }
-  .mental h1{
-    font-size: 28px;
-    margin-top: -1.5rem;
+  .mental img{
+    width: 60vh;
+    height: 30vh;
   }
-  .mental h2{
-    font-size: 20px;
+  .hydro{
+    margin-top: 2rem;
   }
-  .kikuyu{
-    margin-left: 4rem;
+  .hiking{
+    margin-top: 2rem;
   }
-  .kikuyu h2{
-    font-size: 20px;
-  }
-  .kikuyu p{
-    font-size: 15px;
-    display: block;
-  }
+  
 }
 @media (min-width: 992px) and (max-width: 1199px){
   html, body{
@@ -395,29 +351,17 @@ nav ul li a:hover{
     font-size: 11px;
   }
   .mental{
-    margin-left: 4rem;
+    margin-left: 6rem;
+    width: 65vh;
   }
   .mental p{
-    font-size: 15px;
-    display: block;
+    font-size: 19px;
   }
-  .mental h1{
-    font-size: 28px;
-    margin-top: -1.5rem;
+  .mental img{
+    width: 65vh;
+    height: 30vh;
   }
-  .mental h2{
-    font-size: 20px;
-  }
-  .kikuyu{
-    margin-left: 4rem;
-  }
-  .kikuyu h2{
-    font-size: 20px;
-  }
-  .kikuyu p{
-    font-size: 15px;
-    display: block;
-  }
+  
   
 }
 @media (min-width: 1200px) and (max-width: 1919px){
@@ -431,30 +375,6 @@ nav ul li a:hover{
   nav ul li a{
     font-size: 14px;
   }
-  .mental{
-    margin-left: 0.5rem;
-    margin-right: -5rem;
-  }
-  .mental p{
-    font-size: 20px;
-    display: block;
-  }
-  .mental h1{
-    font-size: 28px;
-    margin-top: -1.5rem;
-  }
-  .mental h2{
-    font-size: 25px;
-  }
-  .kikuyu{
-    margin-left: 0.5rem;
-  }
-  .kikuyu h2{
-    font-size: 25px;
-  }
-  .kikuyu p{
-    font-size: 20px;
-    display: block;
-  }
+ 
   
 }
