@@ -44,6 +44,25 @@ nav ul li a:hover{
   text-decoration: underline;
   color: #fff;
 }
+nav ul li ul{
+  position: absolute;
+  width: 200px;
+  background: #fff;
+  display: none;
+}
+nav ul li ul a{
+  color: #000;
+  margin-left: -0.5rem;
+}
+nav ul li ul a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+nav ul li:hover > ul{
+  display: initial;
+  top: 3.5rem;
+  right: 16.5rem;
+}
 .fa-bars{
   font-size: 30px;
   color: #fff;
@@ -145,6 +164,12 @@ nav ul li a:hover{
   }
   #check:checked ~ ul{
     left: 0;
+  }
+  nav ul li ul{
+    position: relative;
+  }
+  nav ul li ul li{
+    background: #dad8d8;
   }
   .buttons{
     margin-top: 15rem
