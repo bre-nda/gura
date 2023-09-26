@@ -244,21 +244,21 @@ img{
     margin-left: 0rem;
   }
   img{
-    margin-left: 1rem;
+    margin-left: 0rem;
     object-fit: cover;
-    height: 40vh;
-    width: 85%;
+    height: 55vh;
+    width: 95%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 10%; 
+    left: 7%; 
     
   }
   .next{
-    left: 77%;
+    left: 80%;
   }
   .numbertext{
     top: -1%;
@@ -322,25 +322,25 @@ img{
     margin-left: 0rem;
   }
   img{
-    margin-left: 2rem;
+    margin-left: 0rem;
     object-fit: cover;
-    height: 40vh;
-    width: 85%;
+    height: 60vh;
+    width: 100%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 10%; 
+    left: 3%; 
     
   }
   .next{
-    left: 86%;
+    left: 90%;
   }
   .numbertext{
     top: -1%;
-    left: 10%;
+    left: 5%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
@@ -399,25 +399,25 @@ img{
     z-index: 2;
   }
   img{
-    margin-left: 3rem;
+    margin-left: -2rem;
     object-fit: cover;
-    height: 50vh;
-    width: 85%;
+    height: 70vh;
+    width: 110%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 13%; 
+    left: 2%; 
     
   }
   .next{
-    left: 86%;
+    left: 90%;
   }
   .numbertext{
     top: -1%;
-    left: 10%;
+    left: 2%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
@@ -449,25 +449,25 @@ img{
     margin-left: 2rem;
   }
   img{
-    margin-left: 5rem;
+    margin-left: -4rem;
     object-fit: cover;
-    height: 60vh;
-    width: 85%;
+    height: 80vh;
+    width: 120%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 15%; 
+    left: -5%; 
     
   }
   .next{
-    left: 90%;
+    left: 100%;
   }
   .numbertext{
     top: -1%;
-    left: 17%;
+    left: -5%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
