@@ -243,24 +243,25 @@ img{
     margin-left: 0rem;
   }
   img{
-    margin-left: 2.8rem;
+    margin-left: 1rem;
     object-fit: cover;
     height: 40vh;
-    width: 65%;
+    width: 85%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 13%; 
+    left: 10%; 
     
   }
-  /* .next{
-    left: 73%;
-  } */
+  .next{
+    left: 77%;
+  }
   .numbertext{
     top: -1%;
+    left: 6%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
@@ -319,10 +320,10 @@ img{
     margin-left: 0rem;
   }
   img{
-    margin-left: 2.8rem;
+    margin-left: 2rem;
     object-fit: cover;
     height: 40vh;
-    width: 65%;
+    width: 85%;
 
   }
   .prev, .next{
@@ -332,12 +333,12 @@ img{
     left: 10%; 
     
   }
-  /* .next{
-    left: 73%;
-  } */
+  .next{
+    left: 86%;
+  }
   .numbertext{
     top: -1%;
-    left: 17%;
+    left: 10%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
@@ -395,25 +396,25 @@ img{
     left: 0;
   }
   img{
-    margin-left: 5rem;
+    margin-left: 3rem;
     object-fit: cover;
-    height: 40vh;
-    width: 65%;
+    height: 50vh;
+    width: 85%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 16%; 
+    left: 13%; 
     
   }
-  /* .next{
-    left: 73%;
-  } */
+  .next{
+    left: 86%;
+  }
   .numbertext{
     top: -1%;
-    left: 17%;
+    left: 10%;
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
@@ -445,22 +446,22 @@ img{
     margin-left: 2rem;
   }
   img{
-    margin-left: 7rem;
+    margin-left: 5rem;
     object-fit: cover;
     height: 60vh;
-    width: 65%;
+    width: 85%;
 
   }
   .prev, .next{
     padding: 12px;
   }
   .prev{
-    left: 20%; 
+    left: 15%; 
     
   }
-  /* .next{
-    left: 73%;
-  } */
+  .next{
+    left: 90%;
+  }
   .numbertext{
     top: -1%;
     left: 17%;
