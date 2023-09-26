@@ -89,6 +89,10 @@ nav ul li a:hover{
   color: #fff;
 }
 
+img{
+  object-fit: cover;
+}
+
 .title h1{
   text-align: center;
   margin-bottom: 3rem;
@@ -690,6 +694,9 @@ i{
     font-size: 8px;
     /* color: blueviolet; */
   }
+  nav ul{
+    margin-top: -5rem;
+}
   nav ul li a{
     font-size: 11px;
   }

@@ -6,7 +6,7 @@
   font-size: 20px;
 }
 body{
-  background-color: #fff;
+  background-color: #f7fafd;
   /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GuraPhotos/river-11.jpg); */
   background-position: center;
   background-size: cover;
@@ -83,6 +83,93 @@ h2{
   display: table;
 }
 
+.mySlides{
+  display: none;
+}
+img{
+  vertical-align: middle;
+  margin-left: 11rem;
+  width: 60%;
+  height: 90vh;
+  object-fit: cover;
+}
+.slideshow-container{
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 21%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+  background-color: #22223b;
+}
+.next{
+  left: 75%;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8) ;
+}
+.text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 8px;
+  display: none;
+}
+.numbertext{
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px 12px;
+  position: absolute;
+  top: -6%;
+  left: 20%;
+}
+.dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+  background-color: #717171;
+}
+.gal{
+  -webkit-animation-name: gal;
+  -webkit-animation-duration: 1.5s;
+  animation-name: gal;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes gal{
+  from {opacity: .4;}
+  to{opacity: 1;}
+}
+@keyframes gal{
+  from {opacity: .4;}
+  to{opacity: 1;}
+}
+
 
 
 .contact{
@@ -155,6 +242,29 @@ h2{
   .row{
     margin-left: 0rem;
   }
+  img{
+    margin-left: 2.8rem;
+    object-fit: cover;
+    height: 40vh;
+    width: 65%;
+
+  }
+  .prev, .next{
+    padding: 12px;
+  }
+  .prev{
+    left: 13%; 
+    
+  }
+  /* .next{
+    left: 73%;
+  } */
+  .numbertext{
+    top: -1%;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-size: 400;
+  }
   
 
 }
@@ -208,6 +318,32 @@ h2{
   .row{
     margin-left: 0rem;
   }
+  img{
+    margin-left: 2.8rem;
+    object-fit: cover;
+    height: 40vh;
+    width: 65%;
+
+  }
+  .prev, .next{
+    padding: 12px;
+  }
+  .prev{
+    left: 10%; 
+    
+  }
+  /* .next{
+    left: 73%;
+  } */
+  .numbertext{
+    top: -1%;
+    left: 17%;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-size: 400;
+  }
+  
+
 
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -258,6 +394,31 @@ h2{
   #check:checked ~ ul{
     left: 0;
   }
+  img{
+    margin-left: 5rem;
+    object-fit: cover;
+    height: 40vh;
+    width: 65%;
+
+  }
+  .prev, .next{
+    padding: 12px;
+  }
+  .prev{
+    left: 16%; 
+    
+  }
+  /* .next{
+    left: 73%;
+  } */
+  .numbertext{
+    top: -1%;
+    left: 17%;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-size: 400;
+  }
+  
  
 
 }
@@ -277,6 +438,37 @@ h2{
   nav ul li a{
     font-size: 11px;
   }
+  nav ul{
+    margin-top: -4rem;
+  }
+  h2{
+    margin-left: 2rem;
+  }
+  img{
+    margin-left: 7rem;
+    object-fit: cover;
+    height: 60vh;
+    width: 65%;
+
+  }
+  .prev, .next{
+    padding: 12px;
+  }
+  .prev{
+    left: 20%; 
+    
+  }
+  /* .next{
+    left: 73%;
+  } */
+  .numbertext{
+    top: -1%;
+    left: 17%;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-size: 400;
+  }
+  
   
 }
 @media (min-width: 1200px) and (max-width: 1919px){
@@ -290,6 +482,34 @@ h2{
   nav ul li a{
     font-size: 14px;
   }
+  
+  h2{
+    margin-left: 2rem;
+  }
+  /* img{
+    margin-left: 11rem;
+    object-fit: cover;
+    height: 60vh;
+    width: 65%;
+
+  }
+  .prev, .next{
+    padding: 12px;
+  }
+  .prev{
+    left: 20%; 
+    
+  }
+  .next{
+    left: 80%;
+  }
+  .numbertext{
+    top: -1%;
+    left: 17%;
+    color: #f2f2f2;
+    font-size: 12px;
+    font-size: 400;
+  } */
   
   
 }
