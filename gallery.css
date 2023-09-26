@@ -238,6 +238,7 @@ img{
   }
   #check:checked ~ ul{
     left: 0;
+    z-index: 2;
   }
   .row{
     margin-left: 0rem;
@@ -315,6 +316,7 @@ img{
   }
   #check:checked ~ ul{
     left: 0;
+    z-index: 2;
   }
   .row{
     margin-left: 0rem;
@@ -394,6 +396,7 @@ img{
   }
   #check:checked ~ ul{
     left: 0;
+    z-index: 2;
   }
   img{
     margin-left: 3rem;
