@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+  }
+  body{
+    background-color: #f7fafd;
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GuraPhotos/river-11.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  nav{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(GuraPhotos/river-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+  }
+  label.logo{
+    color: #fff;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 30px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+  }
+  .fa-bars{
+    font-size: 30px;
+    color: #fff;
+  }
+  .checkbtn{
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+  }
+  
+ 
+  img{
+    object-fit: cover;
+  }
+  .sio{
+    width: 100%;
+    height: 85vh;
+  }
+
+  /* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: #22223b;
+    text-decoration: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    left: 95%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    margin-right: -1rem;
+    float: left;
+    width: 16.66%; 
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    height: 30vh;
+    width: 100%;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  .contact{
+    background: #22223b;
+    margin-right: -15rem !important;
+    margin-left: -3rem !important;
+    margin-top: 5rem !important;
+    margin-bottom: -3rem !important;
+    margin-top: 5rem !important;
+    color: #fff;
+  }
+  .contact h6{
+    color: #eef5fc;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 12rem;
+  }
+  
+  
+  @media (max-width: 480px){
+    html, body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+  
+    .logo{
+      font-size: 8px;
+    
+    }
+    nav ul li a{
+      font-size: 14px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    .fa-bars{
+      font-size: 20px;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px;
+      margin-left: -0.3rem;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 15px;
+      color: #000;
+    }
+    nav ul li a:hover{
+      text-decoration: underline;
+      color: #000;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      z-index: 2;
+    }
+    .row{
+      margin-left: 0rem;
+    }
+    .sio{
+      margin-left: 0rem;
+      object-fit: cover;
+      height: 50vh;
+    }
+    .demo{
+        object-fit: cover;
+        height: 8vh;
+    }
+    .prev, .next{
+        
+      padding: 12px;
+      top: 72%;
+    }
+    .prev{
+      left: 7%; 
+      padding: 0.5rem;
+      
+    }
+    .column{
+        margin-left: -0.5rem;
+        width: 25%;
+    }
+    .next{
+      left: 86%;
+      padding: 0.5rem;
+    }
+    
+  
+  }
+  @media (min-width: 481px) and (max-width: 767px){
+    html, body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    label .logo{
+      font-size: 8px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    .fa-bars{
+      font-size: 20px;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px;
+      margin-left: -0.3rem;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 15px;
+      color: #000;
+    }
+    nav ul li a:hover{
+      text-decoration: underline;
+      color: #000;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      z-index: 2;
+    }
+    .row{
+      margin-left: 0rem;
+    }
+    .sio{
+        margin-left: 0rem;
+        object-fit: cover;
+        height: 50vh;
+      }
+      .demo{
+          object-fit: cover;
+          height: 8vh;
+      }
+      .prev, .next{
+          
+        padding: 12px;
+        top: 72%;
+      }
+      .prev{
+        left: 7%; 
+        padding: 0.5rem;
+        
+      }
+      .column{
+          margin-left: -0.5rem;
+          width: 23%;
+      }
+      .next{
+        left: 86%;
+        padding: 0.5rem;
+      }
+      
+  
+  
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    html, body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    label .logo{
+      font-size: 8px;
+      /* color: blueviolet; */
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+    .checkbtn{
+      display: block;
+    }
+    .fa-bars{
+      font-size: 20px;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px;
+      margin-left: -0.3rem;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 15px;
+      color: #000;
+    }
+    nav ul li a:hover{
+      text-decoration: underline;
+      color: #000;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      z-index: 2;
+    }
+    .sio{
+        margin-left: 0rem;
+        object-fit: cover;
+        height: 60vh;
+      }
+      .demo{
+          object-fit: cover;
+          height: 8vh;
+      }
+      .prev, .next{
+          
+        padding: 12px;
+        top: 60%;
+      }
+      .prev{
+        left: 7%; 
+        padding: 0.5rem;
+        
+      }
+      .column{
+          margin-left: -0.1rem;
+          width: 20%;
+      }
+      .next{
+        left: 86%;
+        padding: 0.5rem;
+      }
+      
+   
+   
+  
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px){
+    html, body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    label .logo{
+      font-size: 8px;
+      /* color: blueviolet; */
+    }
+    nav ul li a{
+      font-size: 11px;
+    }
+    nav ul{
+      margin-top: -4rem;
+    }
+    h2{
+      margin-left: 2rem;
+    }
+    .prev, .next{
+          
+    padding: 12px;
+    top: 50%;
+    }
+    .demo{
+        height: 28vh;
+    }
+   
+    
+  }
+  @media (min-width: 1200px) and (max-width: 1919px){
+    html, body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    nav ul li a{
+      font-size: 14px;
+    }
+    
+    h2{
+      margin-left: 2rem;
+    }
+    /* img{
+      margin-left: 11rem;
+      object-fit: cover;
+      height: 60vh;
+      width: 65%;
+  
+    }
+    .prev, .next{
+      padding: 12px;
+    }
+    .prev{
+      left: 20%; 
+      
+    }
+    .next{
+      left: 80%;
+    }
+    .numbertext{
+      top: -1%;
+      left: 17%;
+      color: #f2f2f2;
+      font-size: 12px;
+      font-size: 400;
+    } */
+    
+    
+  }

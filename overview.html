@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
     <title>GuraCamp</title>
 </head>
 <body>
@@ -21,9 +22,9 @@
         </label>
         <label class="logo">GuraCamp</label>
         <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="overview.html">Overview</a></li>
-            <li><a href="activities.html">Activities</a></li>
+            <li><a href="act-2.html">Activities</a></li>
             <li><a href="accomodation.html">Accomodation</a></li>
             <li><a href="comm.html">Community Development</a></li>
             <li><a href="food.html">Cuisines</a></li>
@@ -34,13 +35,7 @@
 
 
         <div class="row about-1">
-            <div class="about">
-                <div class="camp-img">
-                    <img src="GuraPhotos/river-2.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="about">
+            <div class="gura">
                 <div class="camp">
                     <h2>Gura Camp</h2>
                     <p>Nestled in Tetu, Nyeri County, Kenya, the Gura Camp is a scenic haven offering a range of outdoor activities.
@@ -50,7 +45,47 @@
                         With its tranquil ambiance and diverse offerings, Gura River in Tetu is an inviting destination for both relaxation and outdoor exploration.
                     </p>
                 </div>
+                <div class="camp-img">
+                    <div class="mySlides gal">
+                        <img src="GuraPhotos/river-2.jpg" alt="">
+                    </div>
+                    <div class="mySlides gal">
+                        <img src="GuraPhotos/house.jpg" alt="">
+                    </div>
+                    <div class="mySlides gal">
+                        <img src="GuraPhotos/nature-1.jpg" alt="">
+                    </div>
+                    <div class="mySlides gal">
+                        <img src="GuraPhotos/picnic-2.jpg" alt="">
+                    </div>
+                    <div class="mySlides gal">
+                        <img src="GuraPhotos/culture-1.jpg" alt="">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <!-- <img src="GuraPhotos/river-2.jpg" alt=""> -->
+                </div>
+                <br>
+                <div class="wow" style="text-align: center;">
+                    <span class="dot" onclick="currentSlides(1)"></span>
+                    <span class="dot" onclick="currentSlides(2)"></span>
+                    <span class="dot" onclick="currentSlides(3)"></span>
+                    <span class="dot" onclick="currentSlides(4)"></span>
+                    <span class="dot" onclick="currentSlides(5)"></span>
+                </div>
             </div>
+
+            <!-- <div class="about">
+                <div class="camp">
+                    <h2>Gura Camp</h2>
+                    <p>Nestled in Tetu, Nyeri County, Kenya, the Gura Camp is a scenic haven offering a range of outdoor activities.
+                        Its clear waters wind through picturesque landscapes, 
+                        creating a serene atmosphere for fishing, picnics, and leisurely walks. 
+                        The river's banks serve as a perfect spot to observe local birdlife and relax amid nature's beauty. 
+                        With its tranquil ambiance and diverse offerings, Gura River in Tetu is an inviting destination for both relaxation and outdoor exploration.
+                    </p>
+                </div>
+            </div> -->
         </div> 
 
         <div class="intro">
@@ -193,6 +228,6 @@
             <h6>&copy; 2023 GuraCamp</h6>
         </div>
     </footer>
-    
+    <script src="over.js"></script>
 </body>
 </html>
