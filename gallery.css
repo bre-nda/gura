@@ -170,6 +170,30 @@ img{
   to{opacity: 1;}
 }
 
+.pagination {
+  display: inline-block;
+}
+.center{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 2px solid #2c2447;
+  margin: 0 4px;
+}
+
+.pagination a:hover{
+  background-color: #2c2447;
+  color: #fff;
+}
+
+
 
 
 .contact{

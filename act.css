@@ -371,6 +371,9 @@ i{
     left: 0;
     z-index: 3;
   }
+  .gard{
+    margin-top: 2rem;
+  }
   .mental{
     margin-left: 1rem;
     width: 42vh;
@@ -510,6 +513,9 @@ i{
     left: 0;
     z-index: 2;
   }
+  .gard{
+    margin-top: 2rem;
+  }
   .mental{
     margin-left: 2rem;
     width: 65vh;
@@ -643,6 +649,9 @@ i{
   #check:checked ~ ul{
     left: 0;
     z-index: 2;
+  }
+  .gard{
+    margin-top: 2rem;
   }
   .mental{
     margin-left: 3rem;
