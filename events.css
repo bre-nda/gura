@@ -12,7 +12,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 130vh;
+    height: 100vh;
     overflow-x: hidden;
   }
   nav{
@@ -189,6 +189,7 @@
   }
   .acco{
     margin-top: -3rem;
+    margin-bottom: 6rem;
    
   }
   .accomodation{
@@ -303,6 +304,7 @@
       margin-right: -2rem;
     }
     .about img{
+      margin-top: 2rem;
       margin-left: -0.5rem;
       width: 42vh;
       height: 60vh;
@@ -310,7 +312,6 @@
     }
     i{
       font-size: 13px;
-      display: none;
     }
     .email{
         font-size: 18px;
