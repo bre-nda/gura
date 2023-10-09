@@ -8,7 +8,7 @@
   body{
     /* background-color: #f6f6f7; */
     color: #fff;
-    background:linear-gradient(to bottom right, #130835, rgb(34, 65, 133));
+    background:linear-gradient(to bottom right, #22223b, rgb(22, 42, 87));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -305,13 +305,10 @@
     }
     .about img{
       margin-top: 2rem;
-      margin-left: -0.5rem;
-      width: 42vh;
+      margin-left: -0.8rem;
+      width: 45vh;
       height: 60vh;
       object-fit: cover;
-    }
-    i{
-      font-size: 13px;
     }
     .email{
         font-size: 18px;
@@ -334,6 +331,7 @@
     }
     .checkbtn{
       display: block;
+      display: none;
     }
     .fa-bars{
       font-size: 20px;
@@ -366,37 +364,7 @@
       left: 0;
       z-index: 2;
     }
-    .gard{
-      margin-top: 2rem;
-    }
-    .mental{
-      margin-left: 2rem;
-      width: 65vh;
-    }
-    .mental p{
-      font-size: 18px;
-    }
-    .mental img{
-      width: 65vh;
-      height: 40vh;
-    }
-    .hydro{
-      margin-top: 2rem;
-    }
-    .hiking{
-      margin-top: 2rem;
-    }
-    .gura{
-      margin-left: 2rem;
-      width: 65vh;
-    }
-    .gura p{
-      font-size: 18px;
-    }
-    .gura img{
-      width: 65vh;
-      height: 40vh;
-    }
+    
     .about{
       margin-left: 2rem;
       width: 65vh;
@@ -406,50 +374,12 @@
     }
     .about img{
       width: 65vh;
-      height: 40vh;
-    }
-    .icon{
-      vertical-align: top;
-      margin-left: 3rem;
-      display: inline-block;
-      width: 11vh
-    }
-    i{
-      font-size: 18px;
-    }
-    .icon p{
-      font-size: 9px;
-    }
-    .child{
-      margin-left: 0.2rem;
-    }
-    .meet{
-      margin-left: 0rem;
-    }
-    .free{
-      margin-left: 0rem;
-    }
-    .security{
-      margin-left: 0rem;
-    }
-    .food h2{
+      height: 88vh;
+      object-fit: cover;
       margin-top: 2rem;
     }
-    .activities h2{
-      margin-top: 2rem;
-    }
-    .camp{
-      margin-top: 2rem;
-    }
-    .prev{
-      left: 1%;
-      font-size: 15px;
-      padding: 0.5rem;
-    }
-    .next{
-      left: 99%;
-      font-size: 15px;
-      padding: 0.5rem;
+    .accomodation{
+        margin-top: -1rem;
     }
    
     
@@ -471,6 +401,7 @@
     }
     .checkbtn{
       display: block;
+      display: none;
     }
     .fa-bars{
       font-size: 20px;
@@ -503,37 +434,7 @@
       left: 0;
       z-index: 2;
     }
-    .gard{
-      margin-top: 2rem;
-    }
-    .mental{
-      margin-left: 3rem;
-      width: 60vh;
-    }
-    .mental p{
-      font-size: 19px;
-    }
-    .mental img{
-      width: 60vh;
-      height: 40vh;
-    }
-    .hydro{
-      margin-top: 2rem;
-    }
-    .hiking{
-      margin-top: 2rem;
-    }
-    .gura{
-      margin-left: 3rem;
-      width: 60vh;
-    }
-    .gura p{
-      font-size: 19px;
-    }
-    .gura img{
-      width: 60vh;
-      height: 40vh;
-    }
+   
     .about{
       margin-left: 3rem;
       width: 60vh;
@@ -542,42 +443,14 @@
       font-size: 19px;
     }
     .about img{
-      width: 60vh;
-      height: 40vh;
+      width: 66vh;
+      height: 90vh;
+      margin-top: 3rem;
+      object-fit: cover;
+      margin-left: -1rem;
+
     }
-    .icon{
-      vertical-align: top;
-      margin-left: 6rem;
-      display: inline-block;
-      width: 9vh
-    }
-    i{
-      font-size: 19px;
-    }
-    .icon p{
-      font-size: 10px;
-    }
-    .child{
-      margin-left: 0.2rem;
-    }
-    .meet{
-      margin-left: 0rem;
-    }
-    .free{
-      margin-left: 0rem;
-    }
-    .security{
-      margin-left: 0rem;
-    }
-    .food h2{
-      margin-top: 2rem;
-    }
-    .activities h2{
-      margin-top: 2rem;
-    }
-    .camp{
-      margin-top: 2rem;
-    }
+   
    
     
   }
@@ -599,32 +472,6 @@
     nav ul li a{
       font-size: 11px;
     }
-    .mental{
-      margin-left: 6rem;
-      width: 70vh;
-    }
-    .mental p{
-      font-size: 19px;
-    }
-    .mental img{
-      width: 70vh;
-      height: 55vh;
-    }
-    .gura{
-      margin-left: 14rem;
-      width: 65vh;
-    }
-    .gura h2{
-      margin-left: 10rem;
-    }
-    .gura p{
-      font-size: 19px;
-      width: 100vh;
-    }
-    .gura img{
-      width: 100vh;
-      height: 55vh;
-    }
     .about{
       margin-left: 6rem;
       width: 65vh;
@@ -633,8 +480,10 @@
       font-size: 19px;
     }
     .about img{
+        margin-top: 4rem;
       width: 70vh;
-      height: 55vh;
+      height: 95vh;
+      object-fit: cover;
     }
     .icon{
       vertical-align: top;
@@ -642,45 +491,8 @@
       display: inline-block;
       width: 15vh
     }
-    i{
-      font-size: 20px;
-    }
-    .icon p{
-      font-size: 15px;
-    }
-    .child{
-      margin-left: 0.2rem;
-    }
-    .meet{
-      margin-left: 0rem;
-    }
-    .free{
-      margin-left: 0rem;
-    }
-    .security{
-      margin-left: 0rem;
-    }
-    .about-1{
-      margin-top: 0.8rem;
-    }
-    .prev{
-      left: 5%;
-      font-size: 15px;
-     
-    }
-    .next{
-      left: 153%;
-      font-size: 15px;
-     
-    }
-    .wow{
-      margin-left: 15rem;
-    }
-  
    
-    
-    
-    
+
   }
   @media (min-width: 1200px) and (max-width: 1919px){
     html, body{
@@ -703,6 +515,10 @@
     .mental img{
       width: 75vh;
       height: 50vh;
+    }
+    .about img{
+        margin-left: -5rem;
+        margin-top: 3rem;
     }
     
   
