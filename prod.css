@@ -217,6 +217,26 @@
     padding-bottom: 2rem;
     margin-right: 12rem;
   }
+  .contact h5{
+    color: #eef5fc;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 12rem;
+  }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 32rem;
+    margin-bottom: 2rem;
+  }
   
   
   @media (max-width: 480px){
@@ -305,6 +325,19 @@
     .inf{
       margin-left: 1.5rem;
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 7.9rem;
+      margin-bottom: 2rem;
+    }
     
   
   }
@@ -392,6 +425,19 @@
       .inf{
         margin-left: 1.5rem;
       }
+      .contact i{
+        color: #eef5fc;
+        text-align: center;
+        padding-bottom: 2rem;
+        padding: 0.5rem;
+        border: 1px solid #eef5fc;
+        border-radius: 50%;
+        margin-right: 2rem;
+      }
+      .social{
+        margin-left: 11.5rem;
+        margin-bottom: 2rem;
+      }
       
   
   
@@ -478,6 +524,20 @@
       .inf{
         margin-left: 1.5rem;
       }
+      .contact i{
+        color: #eef5fc;
+        text-align: center;
+        padding-bottom: 2rem;
+        padding: 0.5rem;
+        border: 1px solid #eef5fc;
+        border-radius: 50%;
+        margin-right: 2rem;
+      }
+      .social{
+        margin-left: 18rem;
+        margin-bottom: 2rem;
+      }
+     
       
    
    
@@ -519,6 +579,19 @@
     .inf{
       margin-left: 1.5rem;
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 23rem;
+      margin-bottom: 2rem;
+    }
    
     
   }
@@ -536,6 +609,15 @@
     
     h2{
       margin-left: 2rem;
+    }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
     }
     /* img{
       margin-left: 11rem;

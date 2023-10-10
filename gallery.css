@@ -212,7 +212,26 @@ img{
   padding-bottom: 2rem;
   margin-right: 12rem;
 }
-
+.contact h5{
+  color: #eef5fc;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 12rem;
+}
+.contact i{
+  color: #eef5fc;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding: 0.5rem;
+  border: 1px solid #eef5fc;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.social{
+  margin-left: 32rem;
+  margin-bottom: 2rem;
+}
 
 @media (max-width: 480px){
   html, body{
@@ -291,6 +310,19 @@ img{
     color: #f2f2f2;
     font-size: 12px;
     font-size: 400;
+  }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 7.5rem;
+    margin-bottom: 2rem;
   }
   
 
@@ -372,6 +404,19 @@ img{
     font-size: 12px;
     font-size: 400;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+  }
   
 
 
@@ -451,6 +496,19 @@ img{
     font-size: 12px;
     font-size: 400;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 18rem;
+    margin-bottom: 2rem;
+  }
   
  
 
@@ -501,6 +559,19 @@ img{
     font-size: 12px;
     font-size: 400;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 23.5rem;
+    margin-bottom: 2rem;
+  }
   
   
 }
@@ -518,6 +589,15 @@ img{
   
   h2{
     margin-left: 2rem;
+  }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
   }
   /* img{
     margin-left: 11rem;
