@@ -190,6 +190,7 @@
   }
   .launch{
     text-transform: uppercase;
+    color: #000;
     margin-left: 6rem;
     margin-top: 3rem;
   }
@@ -197,6 +198,18 @@
     margin-top: 3rem;
     margin-left: 6rem;
   }
+  i{
+    font-size: 15px;
+ }
+
+  .email{
+    text-decoration: underline;
+    color: #000;
+ }
+ .number{
+  text-decoration: none;
+  color: #000;
+ }
   
   
   
@@ -337,6 +350,23 @@
     .social{
       margin-left: 7.9rem;
       margin-bottom: 2rem;
+    }
+    .mail{
+      margin-left: -1rem;
+      width: 10%;
+
+    }
+    .email{
+      font-size: 18px;
+    }
+    .phone{
+      margin-left: -1rem;
+    }
+    .number{
+      font-size: 18px;
+    }
+    .launch{
+      margin-left: 1rem;
     }
     
   

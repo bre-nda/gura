@@ -95,8 +95,16 @@
     font-size: 15px;
  }
  .email{
-    text-decoration: none;
+    text-decoration: underline;
     color: #000;
+ }
+ .number{
+  text-decoration: none;
+  color: #000;
+ }
+ .loci{
+  text-decoration: underline;
+  color: #000;
  }
  .map-1{
     margin-top: 2rem;
