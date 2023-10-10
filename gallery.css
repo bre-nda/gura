@@ -193,6 +193,16 @@ img{
   color: #fff;
 }
 
+p{
+  width: 80%;
+  margin-left: 9rem;
+}
+video{
+  width: 150vh;
+  height: 80vh;
+  margin-left: 11rem;
+  background-color: #22223b;
+}
 
 
 
@@ -324,6 +334,16 @@ img{
     margin-left: 7.5rem;
     margin-bottom: 2rem;
   }
+  p{
+    width: 95%;
+    margin-left: 1rem;
+  }
+  video{
+    width: 40vh;
+    height: 50vh;
+    margin-left: 1rem;
+    background-color: #22223b;
+  }
   
 
 }
@@ -417,6 +437,16 @@ img{
     margin-left: 11rem;
     margin-bottom: 2rem;
   }
+  p{
+    width: 95%;
+    margin-left: 1rem;
+  }
+  video{
+    width: 70vh;
+    height: 50vh;
+    margin-left: 1rem;
+    background-color: #22223b;
+  }
   
 
 
@@ -509,6 +539,16 @@ img{
     margin-left: 18rem;
     margin-bottom: 2rem;
   }
+  p{
+    width: 95%;
+    margin-left: 1rem;
+  }
+  video{
+    width: 65vh;
+    height: 50vh;
+    margin-left: 1rem;
+    background-color: #22223b;
+  }
   
  
 
@@ -572,6 +612,16 @@ img{
     margin-left: 23.5rem;
     margin-bottom: 2rem;
   }
+  p{
+    width: 95%;
+    margin-left: 3rem;
+  }
+  video{
+    width: 140vh;
+    height: 80vh;
+    margin-left: 4rem;
+    background-color: #22223b;
+  }
   
   
 }
@@ -599,6 +649,9 @@ img{
     border-radius: 50%;
     margin-right: 2rem;
   }
+  
+  
+  
   /* img{
     margin-left: 11rem;
     object-fit: cover;
