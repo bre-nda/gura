@@ -319,6 +319,26 @@ i{
   padding-bottom: 2rem;
   margin-right: 12rem;
 }
+.contact h5{
+  color: #eef5fc;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 12rem;
+}
+.contact i{
+  color: #eef5fc;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding: 0.5rem;
+  border: 1px solid #eef5fc;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.social{
+  margin-left: 39rem;
+  margin-bottom: 2rem;
+}
 
 
 @media (max-width: 480px){
@@ -461,6 +481,19 @@ i{
     font-size: 15px;
     padding: 0.5rem;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 9.8rem;
+    margin-bottom: 2rem;
+  }
  
  
   
@@ -598,6 +631,19 @@ i{
     font-size: 15px;
     padding: 0.5rem;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+  }
  
   
 }
@@ -725,6 +771,19 @@ i{
   .camp{
     margin-top: 2rem;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 23rem;
+    margin-bottom: 2rem;
+  }
  
   
 }
@@ -823,6 +882,19 @@ i{
   .wow{
     margin-left: 15rem;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 29rem;
+    margin-bottom: 2rem;
+  }
 
  
   
@@ -851,6 +923,19 @@ i{
     width: 75vh;
     height: 50vh;
   }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  /* .social{
+    margin-left: 37rem;
+    margin-bottom: 2rem;
+  } */
   
 
   

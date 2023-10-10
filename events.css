@@ -240,6 +240,27 @@
     padding-bottom: 2rem;
     margin-right: 12rem;
   }
+  .contact h5{
+    color: #eef5fc;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 12rem;
+  }
+  .contact i{
+    color: #eef5fc;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 0.5rem;
+    border: 1px solid #eef5fc;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+  .social{
+    margin-left: 39rem;
+    margin-bottom: 2rem;
+  }
+  
   
   
   @media (max-width: 480px){
@@ -315,6 +336,19 @@
     .email{
         font-size: 18px;
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 9.8rem;
+      margin-bottom: 2rem;
+    }
     
   }
   @media (min-width: 481px) and (max-width: 767px){
@@ -383,6 +417,20 @@
     .accomodation{
         margin-top: -1rem;
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 15rem;
+      margin-bottom: 2rem;
+    }
+   
    
     
   }
@@ -452,6 +500,19 @@
       margin-left: -1rem;
 
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 23rem;
+      margin-bottom: 2rem;
+    }
    
    
     
@@ -493,6 +554,19 @@
       display: inline-block;
       width: 15vh
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
+    .social{
+      margin-left: 29rem;
+      margin-bottom: 2rem;
+    }
    
 
   }
@@ -522,9 +596,15 @@
         margin-left: -5rem;
         margin-top: 7rem;
     }
+    .contact i{
+      color: #eef5fc;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding: 0.5rem;
+      border: 1px solid #eef5fc;
+      border-radius: 50%;
+      margin-right: 2rem;
+    }
     
-  
-    
-   
     
   }
