@@ -188,7 +188,15 @@
     background-color: #2c2447;
     color: #fff;
   }
-  
+  .launch{
+    text-transform: uppercase;
+    margin-left: 6rem;
+    margin-top: 3rem;
+  }
+  .inf{
+    margin-top: 3rem;
+    margin-left: 6rem;
+  }
   
   
   
@@ -291,6 +299,12 @@
       left: 86%;
       padding: 0.5rem;
     }
+    .launch{
+      margin-left: 1.5rem;
+    }
+    .inf{
+      margin-left: 1.5rem;
+    }
     
   
   }
@@ -372,6 +386,12 @@
         left: 86%;
         padding: 0.5rem;
       }
+      .launch{
+        margin-left: 1.5rem;
+      }
+      .inf{
+        margin-left: 1.5rem;
+      }
       
   
   
@@ -452,6 +472,12 @@
         left: 86%;
         padding: 0.5rem;
       }
+      .launch{
+        margin-left: 1.5rem;
+      }
+      .inf{
+        margin-left: 1.5rem;
+      }
       
    
    
@@ -486,6 +512,12 @@
     }
     .demo{
         height: 28vh;
+    }
+    .launch{
+      margin-left: 1.5rem;
+    }
+    .inf{
+      margin-left: 1.5rem;
     }
    
     

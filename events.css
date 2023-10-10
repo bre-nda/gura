@@ -149,9 +149,11 @@
     width: 80vh;
     padding: 10px;
     object-fit: contain; 
+    
    
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
   }
+ 
   .mail{
     margin-top: 1rem;
     margin-bottom: 10px;
@@ -518,7 +520,7 @@
     }
     .about img{
         margin-left: -5rem;
-        margin-top: 3rem;
+        margin-top: 7rem;
     }
     
   
