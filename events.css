@@ -163,13 +163,21 @@
     font-size: 15px;
  }
  .email{
-    text-decoration: none;
+    text-decoration: underline;
     color: #fff;
     font-size: 19px;
  }
  .email:hover{
     color: #fff
  }
+ .number{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+.number:hover{
+  color: #fff
+}
   .acti{
     margin-top: 4rem;
   }
@@ -195,7 +203,7 @@
    
   }
   .accomodation{
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
   .buttons{
     margin-bottom: 1rem;

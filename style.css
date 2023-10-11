@@ -69,11 +69,18 @@ nav{
   height: 90px;
   width: 100%;
 }
-label.logo{
+.logo p{
   color: #fff;
-  font-size: 20px;
-  line-height: 80px;
-  padding: 0 20px;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+}
+.logo img{
+  width: 150px;
+  height: 130px;
+  padding: 1.5rem 0 0 2rem;
+  margin-top: -5rem;
+  margin-left: 27rem;
+  object-fit: cover;
 }
 nav ul{
   float: right;
@@ -102,7 +109,7 @@ nav ul li a:hover{
 }
 .checkbtn{
   float: right;
-  line-height: 80px;
+  margin-top: 2.5rem;
   margin-right: 40px;
   display: none;
 }
@@ -110,6 +117,58 @@ nav ul li a:hover{
   display: none;
 }
 
+/* menu */
+
+nav ul li a{
+  font-size: 18px;
+}
+.checkbtn{
+  display: block;
+  margin-right: 12rem;
+  cursor: pointer;
+}
+.close{
+  display: block;
+  margin-left: 14rem;
+  margin-bottom: -2.5rem;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+.fa-bars{
+  font-size: 25px;
+}
+.fa-x{
+  font-size: 25px;
+}
+ul{
+  position: fixed;
+  width: 30%;
+  height: 100vh;
+  background: #fff;
+  top: -1px;
+  left: -100%;
+  text-align: center;
+  transition: all .5s;
+}
+nav ul li{
+  display: block;
+  margin: 50px;
+  margin-left: -0.3rem;
+  line-height: 24px;
+}
+nav ul li a{
+  font-size: 15px;
+  color: #000;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+
+/* end menu */
 
 .heading-1{
   text-align: center;
@@ -119,17 +178,19 @@ nav ul li a:hover{
   
 }
 .heading-1 h1{
-  font-size: 40px;
-  margin-top: 4rem;
+  font-size: 50px;
+  margin-top: 8rem;
   margin-bottom: 2rem;
   font-family: 'Dancing Script', cursive;
 }
 .heading-1 h5{
   font-size: 18px;
+  width: 50%;
+  margin-left: 16rem;
 }
 .buttons{
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 6rem;
   margin-bottom: 1rem;
   
 }
@@ -137,18 +198,16 @@ nav ul li a:hover{
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   border: 1px solid;
-  padding: 0.5rem;
+  padding: 0.4rem;
   border-radius: 50px;
 }
 .event{
   background-color: #22223b;
 }
 
-/* .vertical-shake{
-  animation: vertical-shaking 1s infinite;
-} */
+
 @keyframes vertical-shaking {
   0% { transform: translateY(0) }
   25% { transform: translateY(5px) }
@@ -157,7 +216,7 @@ nav ul li a:hover{
   100% { transform: translateY(0) }
 }
 
-@media (max-width: 480px){
+@media (min-width: 992px) and (max-width: 1199px){
   html, body{
     margin: 0;
     padding: 0;
@@ -166,15 +225,201 @@ nav ul li a:hover{
     overflow-x: hidden;
   }
 
-  label .logo{
-    font-size: 8px;
-    /* color: blueviolet; */
+  .logo p{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 23rem;
+    object-fit: cover;
   }
   nav ul li a{
     font-size: 14px;
   }
   .checkbtn{
     display: block;
+    margin-right: 5rem;
+    cursor: pointer;
+  }
+  .close{
+    display: block;
+    margin-left: 16rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+  }
+  .fa-bars{
+    font-size: 20px;
+  }
+  ul{
+    position: fixed;
+    width: 40%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 24px;
+  }
+  nav ul li a{
+    font-size: 15px;
+    color: #000;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+    color: #000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .heading-1 h1{
+    font-size: 50px;
+  }
+  .heading-1 h5{
+    font-size: 15px;
+    margin-left: 13rem;
+    width: 50%;
+  }
+  .buttons{
+    margin-top: 7rem;
+  }
+  .buttons a{
+    padding: 0.3rem;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo p{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 18rem;
+    object-fit: cover;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .checkbtn{
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .close{
+    display: block;
+    margin-left: 13rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+  }
+  .fa-bars{
+    font-size: 20px;
+  }
+  ul{
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 24px;
+  }
+  nav ul li a{
+    font-size: 15px;
+    color: #000;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+    color: #000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .heading-1 h1{
+    font-size: 50px;
+  }
+  .heading-1 h5{
+    font-size: 15px;
+    margin-left: 6rem;
+    width: 70%;
+  }
+  .buttons{
+    margin-top: 7rem;
+  }
+  .buttons a{
+    padding: 0.3rem;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo p{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 10rem;
+    object-fit: cover;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .checkbtn{
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .close{
+    display: block;
+    margin-left: 16rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
   }
   .fa-bars{
     font-size: 20px;
@@ -211,15 +456,19 @@ nav ul li a:hover{
   }
   .heading-1 h5{
     font-size: 15px;
+    margin-left: 0.1rem;
+    width: 100%;
   }
   .buttons{
-    margin-top: 6.8rem;
+    margin-top: 7rem;
   }
   .buttons a{
-    padding: 0.5rem;
-    font-size: 18px;
+    padding: 0.3rem;
+    font-size: 16px;
   }
-@media (min-width: 481px) and (max-width: 767px){
+}
+
+@media (max-width: 480px){
   html, body{
     margin: 0;
     padding: 0;
@@ -227,14 +476,115 @@ nav ul li a:hover{
     height: 100%;
     overflow-x: hidden;
   }
-  label .logo{
-    font-size: 8px;
+
+  .logo p{
+    font-size: 20px;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 7rem;
+    object-fit: cover;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .checkbtn{
+    display: block;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  .close{
+    display: block;
+    margin-left: 13rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+  }
+  .fa-bars{
+    font-size: 20px;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px;
+    margin-left: -0.3rem;
+    line-height: 24px;
+  }
+  nav ul li a{
+    font-size: 15px;
+    color: #000;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+    color: #000;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  .heading-1 h1{
+    font-size: 50px;
+  }
+  .heading-1 h5{
+    font-size: 15px;
+    margin-left: 0.1rem;
+    width: 100%;
+  }
+  .buttons{
+    margin-top: 7rem;
+  }
+  .buttons a{
+    padding: 0.3rem;
+    font-size: 16px;
+  }
+/* @media (min-width: 481px) and (max-width: 767px){
+  html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .logo p{
+    font-size: 20px;
+    margin-top: -2.5rem;
+    margin-left: 0.5rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 28rem;
+    object-fit: cover;
   }
   nav ul li a{
     font-size: 16px;
   }
   .checkbtn{
     display: block;
+    margin-right: -6rem;
+    cursor: pointer;
+  }
+  .close{
+    display: block;
+    margin-left: 16rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
   }
   ul{
     position: fixed;
@@ -269,6 +619,12 @@ nav ul li a:hover{
   .heading-1 h1{
     font-size: 45px;
   }
+  .heading-1 h5{
+    font-size: 45px;
+    margin-left: -8rem;
+    width: 100%;
+
+  }
   .buttons{
     margin-top: 6rem;
   }
@@ -276,8 +632,8 @@ nav ul li a:hover{
     padding: 0.5rem;
     font-size: 18px;
   }
-}
-@media (min-width: 768px) and (max-width: 991px){
+} */
+/* @media (min-width: 768px) and (max-width: 991px){
   html, body{
     margin: 0;
     padding: 0;
@@ -285,9 +641,18 @@ nav ul li a:hover{
     height: 100%;
     overflow-x: hidden;
   }
-  label .logo{
-    font-size: 8px;
-    /* color: blueviolet; */
+  .logo p{
+    font-size: 20px;
+    margin-top: -2.5rem;
+    margin-left: 0.5rem;
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-top: -7rem;
+    margin-left: 15rem;
+    object-fit: cover;
   }
   nav ul li a{
     font-size: 16px;
@@ -338,8 +703,8 @@ nav ul li a:hover{
     padding: 0.5rem;
     font-size: 18px;
   }
-}
-@media (min-width: 992px) and (max-width: 1199px){
+} */
+/* @media (min-width: 992px) and (max-width: 1199px){
   html, body{
     margin: 0;
     padding: 0;
@@ -347,9 +712,18 @@ nav ul li a:hover{
     height: 100%;
     overflow-x: hidden;
   }
-  label .logo{
-    font-size: 8px;
-    /* color: blueviolet; */
+  .logo p{
+    font-size: 20px;
+    margin-top: -2.5rem;
+    margin-left: 0.5rem;
+  
+  }
+  .logo img{
+    width: 100px;
+    height: 80px;
+    padding: 1.5rem 0 0 2rem;
+    margin-left: 10rem;
+    object-fit: cover;
   }
   nav ul{
     margin-top: -3.9rem;
@@ -374,7 +748,7 @@ nav ul li a:hover{
     padding: 0.5rem;
     font-size: 17px;
   }
-}
+} */
 @media (min-width: 1200px) and (max-width: 1919px){
   html, body{
     margin: 0;
