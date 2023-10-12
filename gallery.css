@@ -61,6 +61,9 @@ nav ul li a:hover{
 #check{
   display: none;
 }
+.close{
+  display: none;
+}
 h2{
   text-align: center;
   margin-top: 2rem;
@@ -262,15 +265,22 @@ video{
   .checkbtn{
     display: block;
   }
+  .close{
+    display: block;
+    margin-left: 8rem;
+    margin-bottom: -2.5rem;
+    padding-top: 1rem;
+    cursor: pointer;
+  }
   .fa-bars{
     font-size: 20px;
   }
   ul{
     position: fixed;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     background: #fff;
-    top: 80px;
+    top: 0px;
     left: -100%;
     text-align: center;
     transition: all .5s;

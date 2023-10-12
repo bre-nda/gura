@@ -345,7 +345,7 @@ nav ul li a:hover{
     width: 50%;
     height: 100vh;
     background: #fff;
-    top: 80px;
+    top: 0px;
     left: -100%;
     text-align: center;
     transition: all .5s;
@@ -500,7 +500,7 @@ nav ul li a:hover{
   }
   .close{
     display: block;
-    margin-left: 13rem;
+    margin-left: 8rem;
     margin-bottom: -2.5rem;
     padding-top: 1rem;
     cursor: pointer;
@@ -510,10 +510,10 @@ nav ul li a:hover{
   }
   ul{
     position: fixed;
-    width: 100%;
+    width: 70%;
     height: 100vh;
     background: #fff;
-    top: 80px;
+    top: 0px;
     left: -100%;
     text-align: center;
     transition: all .5s;
